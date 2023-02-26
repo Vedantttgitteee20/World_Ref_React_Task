@@ -1,0 +1,100 @@
+
+.mainbox .top{
+    margin-top: 5px;
+    display: flex;
+    border-top-right-radius: 10%;
+    height: 60px;
+    background-color: #ffffff;
+  }
+  
+  .mainbox .topleft {
+    border-top-left-radius: 0.7rem;
+    border: 0.08rem solid rgb(185, 182, 182);
+    box-shadow: 0 0 0.5rem rgba(176, 174, 174, 0.3);
+    width: 812px;
+  }
+  .mainbox .topleft .topleftcontent{
+    margin-top: 18px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .first_title{
+    margin-left: 30px;
+  }
+  .second_title{
+    margin-left: 200px;
+  }
+  .third_title{
+    margin-left: 200px;
+}
+  .toprightcontent{
+    margin-top: 18px;
+    margin-left: 70px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainbox .topright {
+    border-top-right-radius: 0.7rem;
+    width: 320px;
+    border: 0.08rem solid rgb(185, 182, 182);
+    box-shadow: 0 0 0.5rem rgba(176, 174, 174, 0.3);
+  }
+  .mainbox .bottom{
+    height: 220px;
+    display: flex;
+    background-color: #ffffff;
+  }
+  .bottomleftcontent{
+    margin-left: 30px;
+    margin-right: 50px;
+  }
+  .mainbox .bottomleft {
+    border-bottom-left-radius: 0.7rem;
+    border: 0.08rem solid rgb(185, 182, 182);
+    box-shadow: 0 0 0.5rem rgba(176, 174, 174, 0.3);
+    width: 600px;
+  }
+  .mainbox .bottommid {
+    border: 0.08rem solid rgb(185, 182, 182);
+    box-shadow: 0 0 0.5rem rgba(176, 174, 174, 0.3);
+    width: 210px;
+  }
+  .mainbox .bottomright {
+    border-bottom-right-radius: 0.7rem;
+    border: 0.08rem solid rgb(185, 182, 182);
+    box-shadow: 0 0 0.5rem rgba(176, 174, 174, 0.3);
+    width: 320px;
+  }
+  .bottommidcontent{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+    
+  }
+  .bottomrightcontent{
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  .btn{
+    -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  padding: 3px;
+  border-radius: 5px;
+  border-style: none;
+  color: #ffffff;
+  margin-right: 30px;
+  font-size: 17px;
+  background: #0172e7;
+  margin: 5px;
+  padding: 12px 14px 13px 14px;
+  text-decoration: none;
+  border: 0.08rem solid #0172e7;
+  }
+  .btn:hover{
+    color: #0172e7;
+    background: #ffffff;
+    
+  }

@@ -1,0 +1,64 @@
+.bars {
+  margin-right: 25px;
+  color: #808080;
+}
+.notbold{
+  font-weight: 450;
+}
+.navbar {
+  height: 70px;
+  width: 100vw;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftDiv {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.midDiv {
+  margin-right: 20px;
+  display: flex;
+  font-weight: normal;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.midDiv .navbuts {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+}
+.rightDiv{
+  align-items: center;
+  display: flex;
+  margin-right: 20px;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;}
+.button {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  border-style: none;
+  color: #ffffff;
+  margin-right: 30px;
+  font-size: 17px;
+  background: #fe2a19;
+  padding: 12px 14px 13px 14px;
+  text-decoration: none;
+  border: 0.08rem solid #fe2a19;
+}
+
+.button:hover {
+  background: #ffffff;
+  color: #fe2a19;
+  text-decoration: none;
+}
